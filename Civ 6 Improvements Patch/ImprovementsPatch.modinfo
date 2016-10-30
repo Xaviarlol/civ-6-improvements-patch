@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="79a96bee-c555-45b4-ae34-5221c1154f99">
+	<Properties>
+		<Name>Civ 6 Improvements Patch</Name>
+		<Stability>Beta</Stability>
+		<Teaser>Civ 6 Improvements Patch</Teaser>
+		<Description>Civ 6 Improvements Patch</Description>
+		<Authors>Xaviarlol</Authors>
+		<SpecialThanks>Xaviarlol</SpecialThanks>
+	</Properties>
+	<Files>
+		<File>Main.xml</File>
+		<File>Texts.xml</File>
+		<File>TechRules.sql</File>
+		<File>SlowerTechRules.sql</File>
+		<File>Policies.xml</File>
+		<File>PolicyTexts.xml</File>
+	</Files>  
+	<Settings>
+		<Custom id="ImprovementsPatch">
+			<Items>
+				<Component>ImprovementsPatchComponent</Component>
+			</Items>
+		</Custom>
+	</Settings>
+	<Components>
+		<UpdateDatabase id="ImprovementsPatchComponent">
+			<Properties>
+				<Name>Civ 6 Improvements Patch</Name>
+			</Properties>
+			<Items>
+				<File>Main.xml</File>
+				<File>Policies.xml</File>
+				<File>TechRules.sql</File>
+				<File>SlowerTechRules.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText>
+
+			<Properties>
+				<Ruleset>RULESET_STANDARD</Ruleset>
+			</Properties>
+
+			<Items>	
+				<File>Texts.xml</File>
+				<File>PolicyTexts.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>
+
+</Mod>

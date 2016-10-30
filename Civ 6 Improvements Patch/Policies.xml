@@ -1,0 +1,1856 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by matthew beach (Firaxis Games) -->
+<GameInfo>
+
+<Policies>
+
+<Delete PolicyType="POLICY_ILKUM"/>
+<Delete PolicyType="POLICY_LAND_SURVEYORS"/>
+<Delete PolicyType="POLICY_RETAINERS"/>
+<Delete PolicyType="POLICY_NATURAL_PHILOSOPHY"/>
+<Delete PolicyType="POLICY_SCRIPTURE"/>
+<Delete PolicyType="POLICY_MERITOCRACY"/>
+<Delete PolicyType="POLICY_LIMES"/>
+<Delete PolicyType="POLICY_RAID"/>
+<Delete PolicyType="POLICY_NAVAL_INFRASTRUCTURE"/>
+<Delete PolicyType="POLICY_TRADE_CONFEDERATION"/>
+<Delete PolicyType="POLICY_SERFDOM"/>
+<Delete PolicyType="POLICY_SACK"/>
+<Delete PolicyType="POLICY_TOWN_CHARTERS"/>
+<Delete PolicyType="POLICY_COLONIAL_TAXES"/>
+<Delete PolicyType="POLICY_SIMULTANEUM"/>
+<Delete PolicyType="POLICY_NATIVE_CONQUEST"/>
+<Delete PolicyType="POLICY_LOGISTICS"/>
+<Delete PolicyType="POLICY_AESTHETICS"/>
+<Delete PolicyType="POLICY_TRIANGULAR_TRADE"/>
+
+
+</Policies>
+
+	
+<ObsoletePolicies>
+		
+<Delete PolicyType="POLICY_GOD_KING" ObsoletePolicy="POLICY_RELIGIOUS_ORDERS"/>
+<Delete PolicyType="POLICY_DISCIPLINE" ObsoletePolicy="POLICY_PROFESSIONAL_ARMY"/>
+<Delete PolicyType="POLICY_SURVEY" ObsoletePolicy="POLICY_PROFESSIONAL_ARMY"/>
+<Delete PolicyType="POLICY_CARAVANSARIES" ObsoletePolicy="POLICY_FREE_MARKET"/>
+
+		<Row PolicyType="POLICY_SURVEY" ObsoletePolicy="POLICY_PROFESSIONAL_ARMY"/>
+		<Row PolicyType="POLICY_GOD_KING" ObsoletePolicy="POLICY_RELIGIOUS_ORDERS"/>
+		<Row PolicyType="POLICY_DISCIPLINE" ObsoletePolicy="POLICY_PROFESSIONAL_ARMY"/>
+		<Row PolicyType="POLICY_CARAVANSARIES" ObsoletePolicy="POLICY_FREE_MARKET"/>
+		
+</ObsoletePolicies>
+		
+
+<PolicyModifiers>
+	
+			<Row>
+			<PolicyType>POLICY_CARAVANSARIES</PolicyType>
+			<ModifierId>CARAVANSARIES_PLOTPURCHASECOST</ModifierId>
+		</Row>
+	
+			<Row>
+			<PolicyType>POLICY_COLONIZATION</PolicyType>
+			<ModifierId>COLONIZATION_BUILDERPRODUCTION</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_CONSCRIPTION</PolicyType>
+			<ModifierId>CONSCRIPTION_AMENITYBONUS</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_INSPIRATION</PolicyType>
+			<ModifierId>INSPIRATION_DISTRICTSCIENCE</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_REVELATION</PolicyType>
+			<ModifierId>REVELATION_DISTRICTFAITH</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_INSPIRATION</PolicyType>
+			<ModifierId>INSPIRATION_SCIENCE</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_CORVEE</PolicyType>
+			<ModifierId>CORVEE_GREATENGINEERPOINTS</ModifierId>
+		</Row>
+				<Row>
+			<PolicyType>POLICY_LITERARY_TRADITION</PolicyType>
+			<ModifierId>LITERARYTRADITION_DISTRICTCULTURE</ModifierId>
+		</Row>
+				<Row>
+			<PolicyType>POLICY_BASTIONS</PolicyType>
+			<ModifierId>BASTIONS_CASTLEPRODUCTION</ModifierId>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_BASTIONS</PolicyType>
+			<ModifierId>BASTIONS_HOUSINGWALLS</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_VETERANCY</PolicyType>
+			<ModifierId>VETERANCY_GREATGENERALPOINTS</ModifierId>
+		</Row>
+		
+					<Row>
+			<PolicyType>POLICY_URBAN_PLANNING</PolicyType>
+			<ModifierId>URBAN_PLANNING_PRODUCTION</ModifierId>
+		</Row>
+					<Row>
+			<PolicyType>POLICY_SURVEY</PolicyType>
+			<ModifierId>SURVEY_GREATGENERALPOINTS</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_REVELATION</PolicyType>
+			<ModifierId>REVELATION_FAITH</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_NAVIGATION</PolicyType>
+			<ModifierId>NAVIGATION_HARBORGOLD</ModifierId>
+		</Row>
+		
+						<Row>
+			<PolicyType>POLICY_NAVIGATION</PolicyType>
+			<ModifierId>NAVIGATION_ROYALDOCKYARDGOLD</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_NAVIGATION</PolicyType>
+			<ModifierId>NAVIGATION_TRADEROUTECULTURE</ModifierId>
+		</Row>
+				<Row>
+			<PolicyType>POLICY_NAVIGATION</PolicyType>
+			<ModifierId>NAVIGATION_TRADEROUTESCIENCE</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_MEDINA_QUARTER</PolicyType>
+			<ModifierId>MEDINAQUARTER_BUILDERCHARGES</ModifierId>
+		</Row>
+		
+					<Row>
+			<PolicyType>POLICY_LEVEE_EN_MASSE</PolicyType>
+			<ModifierId>LEVEEENMASSE_AMENITYBONUS</ModifierId>
+		</Row>
+		
+					<Row>
+			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+			<ModifierId>PROFESSIONALARMY_GREATGENERALPOINTS</ModifierId>
+		</Row>
+		
+					<Row>
+			<PolicyType>POLICY_FEUDAL_CONTRACT</PolicyType>
+			<ModifierId>FEUDALCONTRACT_ALLCITYPRODUCTION</ModifierId>
+		</Row>
+		
+					<Row>
+			<PolicyType>POLICY_CHIVALRY</PolicyType>
+			<ModifierId>CHIVALRY_CULTURE</ModifierId>
+		</Row>
+		
+					<Row>
+			<PolicyType>POLICY_PRESS_GANGS</PolicyType>
+			<ModifierId>PRESSGANGS_ALLCITYGOLD</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_GOTHIC_ARCHITECTURE</PolicyType>
+			<ModifierId>GOTHICARCHITECTURE_GREATENGINEERPOINTS</ModifierId>
+		</Row>
+		
+							<Row>
+			<PolicyType>POLICY_MEDINA_QUARTER</PolicyType>
+			<ModifierId>MEDINAQUARTER_ALLCITYFOOD</ModifierId>
+		</Row>
+		
+						<Row>
+			<PolicyType>POLICY_INSULAE</PolicyType>
+			<ModifierId>INSULAE_ALLCITYFOOD</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_CRAFTSMEN</PolicyType>
+			<ModifierId>CRAFTSMEN_INDUSTRIALZONEPRODUCTION</ModifierId>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_CRAFTSMEN</PolicyType>
+			<ModifierId>CRAFTSMEN_FACTORY_PRODUCTION</ModifierId>
+		</Row>
+				<Row>
+			<PolicyType>POLICY_CRAFTSMEN</PolicyType>
+			<ModifierId>CRAFTSMEN_WORKSHOP_PRODUCTION</ModifierId>
+		</Row>
+				<Row>
+			<PolicyType>POLICY_CRAFTSMEN</PolicyType>
+			<ModifierId>CRAFTSMEN_POWER_PLANT_PRODUCTION</ModifierId>
+		</Row>
+				<Row>
+			<PolicyType>POLICY_CRAFTSMEN</PolicyType>
+			<ModifierId>CRAFTSMEN_ELECTRONICS_FACTORY_PRODUCTION</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_STRATEGOS</PolicyType>
+			<ModifierId>STRATEGOS_GREATADMIRALPOINTS</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_TRAVELING_MERCHANTS</PolicyType>
+			<ModifierId>TRAVELINGMERCHANTS_DISTRICTGOLD</ModifierId>
+		</Row>
+		
+			<Row>
+			<PolicyType>POLICY_TRAVELING_MERCHANTS</PolicyType>
+			<ModifierId>TRAVELINGMERCHANTS_COMMERCIALZONEGOLD</ModifierId>
+		</Row>
+		
+			<Row>
+			<PolicyType>POLICY_PUBLIC_WORKS</PolicyType>
+			<ModifierId>PUBLICWORKS_EXTRACOASTALFOOD</ModifierId>
+		</Row>
+		
+	<Delete PolicyType="POLICY_PUBLIC_WORKS" ModifierId="PUBLICWORKS_BUILDERPRODUCTION"/>
+	<Delete PolicyType="POLICY_PUBLIC_WORKS" ModifierId="PUBLICWORKS_BUILDERCHARGES"/>
+	
+	
+				<Row>
+			<PolicyType>POLICY_PUBLIC_WORKS</PolicyType>
+			<ModifierId>PUBLICWORKS_HARBORFOOD</ModifierId>
+		</Row>
+		
+						<Row>
+			<PolicyType>POLICY_PUBLIC_WORKS</PolicyType>
+			<ModifierId>PUBLICWORKS_ROYALDOCKYARDFOOD</ModifierId>
+		</Row>
+		
+					<Row>
+			<PolicyType>POLICY_PUBLIC_WORKS</PolicyType>
+			<ModifierId>PUBLICWORKS_HARBORHOUSING</ModifierId>
+		</Row>
+		
+					<Row>
+			<PolicyType>POLICY_PUBLIC_WORKS</PolicyType>
+			<ModifierId>PUBLICWORKS_ROYALDOCKYARDHOUSING</ModifierId>
+		</Row>
+		
+		
+				<Row>
+			<PolicyType>POLICY_COLONIAL_OFFICES</PolicyType>
+			<ModifierId>COLONIALOFFICES_FOREIGNGOLD</ModifierId>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_RELIGIOUS_ORDERS</PolicyType>
+			<ModifierId>RELIGIOUSORDERS_DOUBLESHRINE</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RELIGIOUS_ORDERS</PolicyType>
+			<ModifierId>RELIGIOUSORDERS_DOUBLETEMPLE</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RELIGIOUS_ORDERS</PolicyType>
+			<ModifierId>RELIGIOUSORDERS_DOUBLECATHEDRAL</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RELIGIOUS_ORDERS</PolicyType>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEGURDWARA</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RELIGIOUS_ORDERS</PolicyType>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEMEETINGHOUSE</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RELIGIOUS_ORDERS</PolicyType>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEMOSQUE</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RELIGIOUS_ORDERS</PolicyType>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEPAGODA</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RELIGIOUS_ORDERS</PolicyType>
+			<ModifierId>RELIGIOUSORDERS_DOUBLESYNAGOGUE</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RELIGIOUS_ORDERS</PolicyType>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEWAT</ModifierId>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_RELIGIOUS_ORDERS</PolicyType>
+			<ModifierId>RELIGIOUSORDERS_FAITHINCAPITAL</ModifierId>
+		</Row>
+		
+			<Row>
+			<PolicyType>POLICY_RELIGIOUS_ORDERS</PolicyType>
+			<ModifierId>RELIGIOUSORDERS_GOLDINCAPITAL</ModifierId>
+		</Row>
+
+				<Row>
+			<PolicyType>POLICY_LIBERALISM</PolicyType>
+			<ModifierId>LIBERALISM_FREEHOUSING</ModifierId>
+		</Row>
+		
+						<Row>
+			<PolicyType>POLICY_LIBERALISM</PolicyType>
+			<ModifierId>LIBERALISM_ARTIST</ModifierId>
+		</Row>
+		
+						<Row>
+			<PolicyType>POLICY_LIBERALISM</PolicyType>
+			<ModifierId>LIBERALISM_MUSICIAN</ModifierId>
+		</Row>
+		
+						<Row>
+			<PolicyType>POLICY_LIBERALISM</PolicyType>
+			<ModifierId>LIBERALISM_WRITER</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_WARS_OF_RELIGION</PolicyType>
+			<ModifierId>WARSOFRELIGION_FRIENDLYTERRITORYMOVEMENTBONUS</ModifierId>
+		</Row>
+		
+					<Row>
+			<PolicyType>POLICY_WARS_OF_RELIGION</PolicyType>
+			<ModifierId>WARSOFRELIGION_FAITHINCAPITAL</ModifierId>
+		</Row>
+		
+				<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<ModifierId>RATIONALISM_UNIVERSITYPRODUCTION</ModifierId>
+		</Row>
+				<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<ModifierId>RATIONALISM_LIBRARYPRODUCTION</ModifierId>
+		</Row>
+				<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<ModifierId>RATIONALISM_RESEARCHLABPRODUCTION</ModifierId>
+		</Row>
+				<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<ModifierId>RATIONALISM_MADRASAPRODUCTION</ModifierId>
+		</Row>
+				<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<ModifierId>RATIONALISM_UNIVERSITYEXTRASCIENCE</ModifierId>
+		</Row>
+		
+						<Row>
+			<PolicyType>POLICY_FRESCOES</PolicyType>
+			<ModifierId>FRESCOES_DISTRICTCULTURE</ModifierId>
+		</Row>
+		
+					<Row>
+			<PolicyType>POLICY_FREE_MARKET</PolicyType>
+			<ModifierId>FREEMARKET_TRADEROUTEGOLD</ModifierId>
+		</Row>
+							<Row>
+			<PolicyType>POLICY_FREE_MARKET</PolicyType>
+			<ModifierId>FREEMARKET_TRADEROUTESCIENCE</ModifierId>
+		</Row>
+		
+</PolicyModifiers>
+	
+
+	
+<Modifiers>
+
+		<Row>
+			<ModifierId>COLONIZATION_BUILDERPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType>
+		</Row>
+		
+				<Row>
+			<ModifierId>CARAVANSARIES_PLOTPURCHASECOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_PLOT_PURCHASE_COST</ModifierType>
+		</Row>
+		
+				<Row>
+			<ModifierId>CONSCRIPTION_AMENITYBONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId>
+		</Row>
+		
+				<Row>
+			<ModifierId>INSPIRATION_DISTRICTSCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+		
+				<Row>
+			<ModifierId>REVELATION_DISTRICTFAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		
+					<Row>
+			<ModifierId>REVELATION_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		
+				<Row>
+			<ModifierId>INSPIRATION_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		
+				<Row>
+			<ModifierId>CORVEE_GREATENGINEERPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>
+		
+				<Row>
+			<ModifierId>LITERARYTRADITION_DISTRICTCULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT</ModifierType>
+		</Row>
+		
+				<Row>
+			<ModifierId>BASTIONS_CASTLEPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>BASTIONS_WALLSPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		
+				<Row>
+			<ModifierId>BASTIONS_HOUSINGWALLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_WALLS_OR_CASTLE</SubjectRequirementSetId>
+		</Row>
+		
+		<Row>
+			<ModifierId>VETERANCY_GREATGENERALPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>
+		
+			<Row>
+		<ModifierId>SURVEY_GREATGENERALPOINTS</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+	</Row>
+	<Row>
+		<ModifierId>URBAN_PLANNING_PRODUCTION</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+	</Row>
+	
+			<Row>
+			<ModifierId>NAVIGATION_HARBORGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+		
+					<Row>
+			<ModifierId>NAVIGATION_ROYALDOCKYARDGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ROYAL_DOCKYARD</SubjectRequirementSetId>
+		</Row>
+		
+				<Row>
+			<ModifierId>NAVIGATION_TRADEROUTECULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>NAVIGATION_TRADEROUTESCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		
+				<Row>
+			<ModifierId>MEDINAQUARTER_BUILDERCHARGES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		
+		<Row>
+			<ModifierId>MEDINAQUARTER_BUILDERCHARGES_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_BUILDER_CHARGES</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		
+				<Row>
+			<ModifierId>LEVEEENMASSE_AMENITYBONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId>
+		</Row>
+		
+					<Row>
+		<ModifierId>PROFESSIONALARMY_GREATGENERALPOINTS</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+	</Row>
+	
+	
+			<Row>
+			<ModifierId>FEUDALCONTRACT_ALLCITYPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		
+					<Row>
+			<ModifierId>CHIVALRY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		
+					<Row>
+			<ModifierId>PRESSGANGS_ALLCITYGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		
+							<Row>
+			<ModifierId>GOTHICARCHITECTURE_GREATENGINEERPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>
+		
+					<Row>
+			<ModifierId>MEDINAQUARTER_ALLCITYFOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		
+						<Row>
+			<ModifierId>INSULAE_ALLCITYFOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		
+								<Row>
+			<ModifierId>CRAFTSMEN_INDUSTRIALZONEPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+		</Row>
+		
+					<Row>
+			<ModifierId>CRAFTSMEN_INDUSTRIALZONEBUILDINGBONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		
+		
+				<Row>
+			<ModifierId>CRAFTSMEN_FACTORY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CRAFTSMEN_WORKSHOP_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CRAFTSMEN_POWER_PLANT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CRAFTSMEN_ELECTRONICS_FACTORY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		
+			<Row>
+			<ModifierId>STRATEGOS_GREATADMIRALPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>
+				<Row>
+			<ModifierId>TRAVELINGMERCHANTS_DISTRICTGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+		
+										<Row>
+			<ModifierId>TRAVELINGMERCHANTS_COMMERCIALZONEGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+		
+							<Row>
+			<ModifierId>PUBLICWORKS_EXTRACOASTALFOOD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>HAS_POLICY_ACTIVE</SubjectRequirementSetId>
+			</Row>
+		
+					<Row>
+			<ModifierId>PUBLICWORKS_EXTRACOASTALFOOD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_COAST</SubjectRequirementSetId>
+			</Row>
+
+											<Row>
+			<ModifierId>PUBLICWORKS_HARBORFOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+			
+			<Row>
+			<ModifierId>PUBLICWORKS_HARBORHOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+		
+								<Row>
+			<ModifierId>PUBLICWORKS_ROYALDOCKYARDFOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ROYAL_DOCKYARD</SubjectRequirementSetId>
+		</Row>
+			
+			<Row>
+			<ModifierId>PUBLICWORKS_ROYALDOCKYARDHOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ROYAL_DOCKYARD</SubjectRequirementSetId>
+		</Row>
+		
+		
+				<Row>
+			<ModifierId>COLONIALOFFICES_FOREIGNGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLESHRINE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLETEMPLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLECATHEDRAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEGURDWARA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEMEETINGHOUSE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEMOSQUE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEPAGODA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLESYNAGOGUE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEWAT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIER</ModifierType>
+		</Row>
+		
+				<Row>
+			<ModifierId>RELIGIOUSORDERS_FAITHINCAPITAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+						<Row>
+			<ModifierId>RELIGIOUSORDERS_GOLDINCAPITAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		
+	
+		
+				<Row>
+			<ModifierId>LIBERALISM_FREEHOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING</ModifierType>
+			
+		</Row>
+		
+					<Row>
+		<ModifierId>LIBERALISM_ARTIST</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+	</Row>
+	
+				<Row>
+		<ModifierId>LIBERALISM_MUSICIAN</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+	</Row>
+	
+				<Row>
+		<ModifierId>LIBERALISM_WRITER</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+	</Row>
+	
+				<Row>
+			<ModifierId>WARSOFRELIGION_FRIENDLYTERRITORYMOVEMENTBONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_FRIENDLY_TERRITORY_START_MOVEMENT</ModifierType>
+		</Row>
+				<Row>
+			<ModifierId>WARSOFRELIGION_FAITHINCAPITAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		
+				<Row>
+			<ModifierId>RATIONALISM_UNIVERSITYPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		
+						<Row>
+			<ModifierId>RATIONALISM_LIBRARYPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+				<Row>
+			<ModifierId>RATIONALISM_RESEARCHLABPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		
+						<Row>
+			<ModifierId>RATIONALISM_MADRASAPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		
+							<Row>
+			<ModifierId>RATIONALISM_UNIVERSITYEXTRASCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		
+				<Row>
+			<ModifierId>FRESCOES_DISTRICTCULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		
+				<Row>
+			<ModifierId>FREEMARKET_TRADEROUTEGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+		</Row>
+		
+						<Row>
+			<ModifierId>FREEMARKET_TRADEROUTESCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+		</Row>
+		
+			<Delete ModifierId="LIBERALISM_SPECIALTYAMENITY" SubjectRequirementSetId="CITY_HAS_2_SPECIALTY_DISTRICTS_REQUIREMENTS"/>
+			
+</Modifiers>
+
+	
+		<ModifierArguments>
+	
+			<Row>
+			<ModifierId>COLONIZATION_BUILDERPRODUCTION</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>COLONIZATION_BUILDERPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>CARAVANSARIES_PLOTPURCHASECOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>-40</Value>
+					</Row>
+			
+					<Row>
+			<ModifierId>CONSCRIPTION_AMENITYBONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>INSPIRATION_DISTRICTSCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>INSPIRATION_DISTRICTSCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+
+				<Row>
+			<ModifierId>REVELATION_DISTRICTFAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>REVELATION_DISTRICTFAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>REVELATION_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>REVELATION_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>INSPIRATION_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>INSPIRATION_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>CORVEE_GREATENGINEERPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>CORVEE_GREATENGINEERPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>LITERARYTRADITION_DISTRICTCULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>LITERARYTRADITION_DISTRICTCULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>BASTIONS_CASTLEPRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CASTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BASTIONS_CASTLEPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>BASTIONS_WALLSPRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WALLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>BASTIONS_WALLSPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>BASTIONS_HOUSINGWALLS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Update>
+		<Where ModifierId="VETERANCY_ENCAMPMENT_PRODUCTION" Name="Amount"/>
+		<Set Value="50"/>
+		</Update>
+		
+				<Row>
+			<ModifierId>VETERANCY_GREATGENERALPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>VETERANCY_GREATGENERALPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+	
+				<Update>
+	<Where ModifierId="CARAVANSARIES_TRADEROUTEGOLD" Name="Amount"/>
+	<Set Value="4"/>
+	</Update>
+	
+				<Update>
+	<Where ModifierId="GOD_KING_GOLD" Name="Amount"/>
+	<Set Value="3"/>
+	</Update>
+					<Update>
+	<Where ModifierId="GOD_KING_FAITH" Name="Amount"/>
+	<Set Value="3"/>
+	</Update>
+	
+				<Row>
+			<ModifierId>URBAN_PLANNING_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>URBAN_PLANNING_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SURVEY_GREATGENERALPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+				<Row>
+			<ModifierId>SURVEY_GREATGENERALPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		
+				<Row>
+			<ModifierId>NAVIGATION_HARBORGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAVIGATION_HARBORGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		
+						<Row>
+			<ModifierId>NAVIGATION_ROYALDOCKYARDGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAVIGATION_ROYALDOCKYARDGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		
+		
+				<Row>
+			<ModifierId>NAVIGATION_TRADEROUTECULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAVIGATION_TRADEROUTECULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAVIGATION_TRADEROUTESCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAVIGATION_TRADEROUTESCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>MEDINAQUARTER_BUILDERCHARGES</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MEDINAQUARTER_BUILDERCHARGES_MODIFIER</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>MEDINAQUARTER_BUILDERCHARGES_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
+						<Row>
+			<ModifierId>LEVEEENMASSE_AMENITYBONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+				<Row>
+			<ModifierId>PROFESSIONALARMY_GREATGENERALPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+				<Row>
+			<ModifierId>PROFESSIONALARMY_GREATGENERALPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>	
+		
+				<Row>
+			<ModifierId>FEUDALCONTRACT_ALLCITYPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>FEUDALCONTRACT_ALLCITYPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>CHIVALRY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>CHIVALRY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>PRESSGANGS_ALLCITYGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>PRESSGANGS_ALLCITYGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>GOTHICARCHITECTURE_GREATENGINEERPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOTHICARCHITECTURE_GREATENGINEERPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
+						<Row>
+			<ModifierId>MEDINAQUARTER_ALLCITYFOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>MEDINAQUARTER_ALLCITYFOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		
+							<Row>
+			<ModifierId>INSULAE_ALLCITYFOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>INSULAE_ALLCITYFOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
+			<Update>
+	<Where ModifierId="AGOGE_ANCIENT_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+		<Update>
+	<Where ModifierId="AGOGE_CLASSICAL_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+		<Update>
+	<Where ModifierId="AGOGE_ANCIENT_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+		<Update>
+	<Where ModifierId="AGOGE_CLASSICAL_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+	
+		<Update>
+	<Where ModifierId="MARITIMIEINDUSTRIES_ANCIENT_NAVAL_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="50"/>
+	</Update>
+		<Update>
+	<Where ModifierId="MARITIMIEINDUSTRIES_CLASSICAL_NAVAL_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="50"/>
+	</Update>
+		<Update>
+	<Where ModifierId="MARITIMIEINDUSTRIES_ANCIENT_NAVAL_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="50"/>
+	</Update>
+		<Update>
+	<Where ModifierId="MARITIMIEINDUSTRIES_CLASSICAL_NAVAL_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="50"/>
+	</Update>
+	
+			<Update>
+	<Where ModifierId="MANEUVER_ANCIENT_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="MANEUVER_CLASSICAL_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="MANEUVER_ANCIENT_LIGHT_CAVALRY_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="MANEUVER_CLASSICAL_LIGHT_CAVALRY_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+	
+				<Update>
+	<Where ModifierId="FEUDALCONTRACT_MEDIEVAL_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="FEUDALCONTRACT_RENAISSANCE_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="FEUDALCONTRACT_MEDIEVAL_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="FEUDALCONTRACT_RENAISSANCE_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+	
+					<Update>
+	<Where ModifierId="CHIVALRY_MEDIEVAL_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="CHIVALRY_RENAISSANCE_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="CHIVALRY_MEDIEVAL_LIGHT_CAVALRY_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="CHIVALRY_RENAISSANCE_LIGHT_CAVALRY_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+	
+						<Update>
+	<Where ModifierId="PRESSGANGS_RENAISSANCE_NAVAL_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="PRESSGANGS_INDUSTRIAL_NAVAL_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="PRESSGANGS_RENAISSANCE_NAVAL_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="PRESSGANGS_INDUSTRIAL_NAVAL_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+	
+							<Update>
+	<Where ModifierId="GRANDEARMEE_INDUSTRIAL_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="GRANDEARMEE_MODERN_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="GRANDEARMEE_INDUSTRIAL_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="GRANDEARMEE_MODERN_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+	
+	
+								<Update>
+	<Where ModifierId="FINESTHOUR_MODERN_AIRFIGHTER_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="FINESTHOUR_ATOMIC_AIRFIGHTER_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="FINESTHOUR_MODERN_AIRBOMBER_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="FINESTHOUR_ATOMIC_AIRBOMBER_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+	
+		
+								<Update>
+	<Where ModifierId="LIGHTNINGWARFARE_MODERN_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="LIGHTNINGWARFARE_ATOMIC_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="LIGHTNINGWARFARE_INFORMATION_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="LIGHTNINGWARFARE_MODERN_LIGHT_CAVALRY_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+					<Update>
+	<Where ModifierId="LIGHTNINGWARFARE_ATOMIC_LIGHT_CAVALRY_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+					<Update>
+	<Where ModifierId="LIGHTNINGWARFARE_INFORMATION_LIGHT_CAVALRY_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+	
+	
+									<Update>
+	<Where ModifierId="PATRIOTICWAR_MODERN_SUPPORT_PRODUCTION" Name="Amount"/>
+	<Set Value="50"/>
+	</Update>
+				<Update>
+	<Where ModifierId="PATRIOTICWAR_ATOMIC_SUPPORT_PRODUCTION" Name="Amount"/>
+	<Set Value="50"/>
+	</Update>
+				<Update>
+	<Where ModifierId="PATRIOTICWAR_INFORMATION_SUPPORT_PRODUCTION" Name="Amount"/>
+	<Set Value="50"/>
+	</Update>
+			
+			
+											<Update>
+	<Where ModifierId="INTERNATIONALWATERS_MODERN_NAVAL_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="INTERNATIONALWATERS_ATOMIC_NAVAL_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="INTERNATIONALWATERS_INFORMATION_NAVAL_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="INTERNATIONALWATERS_MODERN_NAVAL_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+					<Update>
+	<Where ModifierId="INTERNATIONALWATERS_ATOMIC_NAVAL_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+					<Update>
+	<Where ModifierId="INTERNATIONALWATERS_INFORMATION_NAVAL_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+	
+	
+					<Update>
+	<Where ModifierId="MILITARYFIRST_ATOMIC_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="MILITARYFIRST_INFORMATION_MELEE_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+					<Update>
+	<Where ModifierId="MILITARYFIRST_ATOMIC_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+					<Update>
+	<Where ModifierId="MILITARYFIRST_INFORMATION_RANGED_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+	
+		<Update>
+	<Where ModifierId="STRATEGICAIRFORCE_INFORMATION_AIRFIGHTER_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+				<Update>
+	<Where ModifierId="STRATEGICAIRFORCE_INFORMATION_AIRBOMBER_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+					<Update>
+	<Where ModifierId="STRATEGICAIRFORCE_ATOMIC_NAVALCARRIER_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+					<Update>
+	<Where ModifierId="STRATEGICAIRFORCE_INFORMATION_NAVALCARRIER_PRODUCTION" Name="Amount"/>
+	<Set Value="30"/>
+	</Update>
+	
+		<Row>
+			<ModifierId>CRAFTSMEN_INDUSTRIALZONEPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRAFTSMEN_INDUSTRIALZONEPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+				<Row>
+			<ModifierId>CRAFTSMEN_FACTORY_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_FACTORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRAFTSMEN_FACTORY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRAFTSMEN_WORKSHOP_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WORKSHOP</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRAFTSMEN_WORKSHOP_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRAFTSMEN_POWER_PLANT_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_POWER_PLANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRAFTSMEN_POWER_PLANT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRAFTSMEN_ELECTRONICS_FACTORY_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_ELECTRONICS_FACTORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRAFTSMEN_ELECTRONICS_FACTORY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		
+			<Row>
+			<ModifierId>STRATEGOS_GREATADMIRALPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>STRATEGOS_GREATADMIRALPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>TRAVELINGMERCHANTS_DISTRICTGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAVELINGMERCHANTS_DISTRICTGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	
+			<Row>
+			<ModifierId>TRAVELINGMERCHANTS_COMMERCIALZONEGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAVELINGMERCHANTS_COMMERCIALZONEGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>PUBLICWORKS_EXTRACOASTALFOOD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>PUBLICWORKS_EXTRACOASTALFOOD_MODIFIER</Value>
+		</Row>
+			
+			<Row>
+			<ModifierId>PUBLICWORKS_EXTRACOASTALFOOD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+			</Row>
+				<Row>
+			<ModifierId>PUBLICWORKS_EXTRACOASTALFOOD_MODIFIER</ModifierId>
+			<Name>Amount</Name> 
+			<Value>1</Value>
+			</Row>
+
+				<Row>
+			<ModifierId>PUBLICWORKS_HARBORFOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>PUBLICWORKS_HARBORFOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		
+					<Row>
+			<ModifierId>PUBLICWORKS_HARBORHOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>PUBLICWORKS_ROYALDOCKYARDFOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>PUBLICWORKS_ROYALDOCKYARDFOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		
+					<Row>
+			<ModifierId>PUBLICWORKS_ROYALDOCKYARDHOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
+		
+				<Row>
+			<ModifierId>COLONIALOFFICES_FOREIGNGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>COLONIALOFFICES_FOREIGNGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLESHRINE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_SHRINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLESHRINE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLESHRINE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLETEMPLE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TEMPLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLETEMPLE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLETEMPLE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLECATHEDRAL</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CATHEDRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLECATHEDRAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLECATHEDRAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEGURDWARA</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GURDWARA</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEGURDWARA</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEGURDWARA</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEMEETINGHOUSE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MEETING_HOUSE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEMEETINGHOUSE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEMEETINGHOUSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEMOSQUE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MOSQUE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEMOSQUE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEMOSQUE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEPAGODA</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PAGODA</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEPAGODA</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEPAGODA</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLESYNAGOGUE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_SYNAGOGUE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLESYNAGOGUE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLESYNAGOGUE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEWAT</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WAT</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEWAT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>RELIGIOUSORDERS_DOUBLEWAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		
+			<Row>
+			<ModifierId>RELIGIOUSORDERS_FAITHINCAPITAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>RELIGIOUSORDERS_FAITHINCAPITAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		
+			<Row>
+			<ModifierId>RELIGIOUSORDERS_GOLDINCAPITAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>RELIGIOUSORDERS_GOLDINCAPITAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>LIBERALISM_FREEHOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
+						<Row>
+			<ModifierId>LIBERALISM_ARTIST</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>LIBERALISM_ARTIST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+						<Row>
+			<ModifierId>LIBERALISM_MUSICIAN</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>LIBERALISM_MUSICIAN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+						<Row>
+			<ModifierId>LIBERALISM_WRITER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>LIBERALISM_WRITER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>WARSOFRELIGION_FRIENDLYTERRITORYMOVEMENTBONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+					<Row>
+			<ModifierId>WARSOFRELIGION_FAITHINCAPITAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>WARSOFRELIGION_FAITHINCAPITAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>RATIONALISM_LIBRARYPRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LIBRARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>RATIONALISM_LIBRARYPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+						<Row>
+			<ModifierId>RATIONALISM_UNIVERSITYPRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_UNIVERSITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>RATIONALISM_UNIVERSITYPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+								<Row>
+			<ModifierId>RATIONALISM_MADRASAPRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MADRASA</Value>
+		</Row>
+		<Row>
+			<ModifierId>RATIONALISM_MADRASAPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>RATIONALISM_UNIVERSITYEXTRASCIENCE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_UNIVERSITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>RATIONALISM_UNIVERSITYEXTRASCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RATIONALISM_UNIVERSITYEXTRASCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+				<Row>
+			<ModifierId>FRESCOES_DISTRICTCULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>FRESCOES_DISTRICTCULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		
+			<Update>
+			<Where ModifierId="COLONIALOFFICES_FOREIGNGROWTH" Name="Amount"/>
+			<Set Value="50"/>
+			</Update>
+			
+					<Row>
+			<ModifierId>FREEMARKET_TRADEROUTEGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>FREEMARKET_TRADEROUTEGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>FREEMARKET_TRADEROUTESCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>FREEMARKET_TRADEROUTESCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+		
+	</ModifierArguments>
+
+	<RequirementSets>
+				<Row>
+			<RequirementSetId>CITY_HAS_WALLS_OR_CASTLE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		
+				<Row>
+			<RequirementSetId>PLOT_HAS_COAST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		
+				<Row>
+			<RequirementSetId>HAS_POLICY_ACTIVE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		
+	</RequirementSets>
+		
+	<RequirementSetRequirements>
+		
+				<Row>
+			<RequirementSetId>CITY_HAS_WALLS_OR_CASTLE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_CASTLE</RequirementId>
+		</Row>
+		
+				<Row>
+			<RequirementSetId>CITY_HAS_WALLS_OR_CASTLE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_WALLS</RequirementId>
+		</Row>
+						<Row>
+			<RequirementSetId>PLOT_HAS_COAST</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_COAST</RequirementId>
+		</Row>
+								<Row>
+			<RequirementSetId>PLOT_HAS_COAST</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_OCEAN</RequirementId>
+		</Row>
+		
+	<Row>
+			<RequirementSetId>HAS_POLICY_ACTIVE</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_POLICY_ACTIVE</RequirementId>
+		</Row>
+		
+	
+		
+	</RequirementSetRequirements>
+		
+
+	<Requirements>
+			<Row>
+			<RequirementId>REQUIRES_CITY_HAS_CASTLE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_WALLS</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		
+				<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_COAST</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		
+				<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_OCEAN</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		
+				<Row>
+			<RequirementId>REQUIRES_HAS_POLICY_ACTIVE</RequirementId>
+			<RequirementType>REQUIREMENT_HAS_POLICY_ACTIVE</RequirementType>
+		</Row>
+		
+	</Requirements>
+	
+	<RequirementArguments>
+			<Row>
+			<RequirementId>REQUIRES_CITY_HAS_WALLS</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WALLS</Value>
+		</Row>
+		
+			<Row>
+			<RequirementId>REQUIRES_CITY_HAS_CASTLE</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CASTLE</Value>
+		</Row>
+		
+		
+		<Update>
+		<Where RequirementId="REQUIRES_CITY_HAS_2_SPECIALTY_DISTRICTS" Name="Amount"/>
+		<Set Value="1"/>
+		</Update>
+		
+			<Update>
+		<Where RequirementId="REQUIRES_CITY_HAS_3_SPECIALTY_DISTRICTS" Name="Amount"/>
+		<Set Value="2"/>
+		</Update>
+		
+			<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_COAST</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_OCEAN</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_OCEAN</Value>
+		</Row>
+		
+			<Row>
+			<RequirementId>REQUIRES_HAS_POLICY_ACTIVE</RequirementId>
+			<Name>PolicyType</Name>
+			<Value>POLICY_PUBLIC_WORKS</Value>
+		</Row>
+	
+	</RequirementArguments>
+
+
+</GameInfo>

@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by matthew beach (Firaxis Games) -->
+<GameInfo>
+
+<DistrictModifiers>
+
+		<Row>
+			<DistrictType>DISTRICT_HARBOR</DistrictType>
+			<ModifierId>HARBOR_EXTRACOASTALPRODUCTION</ModifierId>
+		</Row>
+		
+				<Row>
+			<DistrictType>DISTRICT_ROYAL_NAVY_DOCKYARD</DistrictType>
+			<ModifierId>ROYALDOCKYARD_EXTRACOASTALPRODUCTION</ModifierId>
+		</Row>
+		
+		
+		
+</DistrictModifiers>
+<RequirementArguments>
+
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_HARBOR</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HARBOR</Value>
+		</Row>
+		
+				<Row>
+			<RequirementId>REQUIRES_CITY_HAS_ROYAL_DOCKYARD</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ROYAL_NAVY_DOCKYARD</Value>
+		</Row>
+		
+		</RequirementArguments>
+		
+		<Modifiers>
+					<Row>
+			<ModifierId>HARBOR_EXTRACOASTALPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_HARBOR</SubjectRequirementSetId>
+			</Row>
+		
+					<Row>
+			<ModifierId>HARBOR_EXTRACOASTALPRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_COAST</SubjectRequirementSetId>
+			
+			</Row>
+			
+								<Row>
+			<ModifierId>ROYALDOCKYARD_EXTRACOASTALPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ROYAL_DOCKYARD</SubjectRequirementSetId>
+			</Row>
+		
+					<Row>
+			<ModifierId>ROYALDOCKYARD_EXTRACOASTALPRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_COAST</SubjectRequirementSetId>
+			
+			</Row>
+			
+		</Modifiers>
+		
+	<ModifierArguments>
+			<Row>
+			<ModifierId>HARBOR_EXTRACOASTALPRODUCTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>HARBOR_EXTRACOASTALPRODUCTION_MODIFIER</Value>
+		</Row>
+			
+			<Row>
+			<ModifierId>HARBOR_EXTRACOASTALPRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+			</Row>
+				<Row>
+			<ModifierId>HARBOR_EXTRACOASTALPRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name> 
+			<Value>1</Value>
+			</Row>
+						<Row>
+			<ModifierId>ROYALDOCKYARD_EXTRACOASTALPRODUCTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>ROYALDOCKYARD_EXTRACOASTALPRODUCTION_MODIFIER</Value>
+		</Row>
+			
+			<Row>
+			<ModifierId>ROYALDOCKYARD_EXTRACOASTALPRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+			</Row>
+				<Row>
+			<ModifierId>ROYALDOCKYARD_EXTRACOASTALPRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name> 
+			<Value>1</Value>
+			</Row>
+			
+	</ModifierArguments>
+	
+	
+		<Requirements>
+		
+				<Row>
+			<RequirementId>REQUIRES_CITY_HAS_HARBOR</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_HARBOR</RequirementType>
+		</Row>
+		
+						<Row>
+			<RequirementId>REQUIRES_CITY_HAS_ROYAL_DOCKYARD</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_ROYAL_DOCKYARD</RequirementType>
+		</Row>
+		
+		
+		</Requirements>
+	
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>CITY_HAS_HARBOR</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_HARBOR</RequirementId>
+		</Row>
+		
+				<Row>
+			<RequirementSetId>CITY_HAS_ROYAL_DOCKYARD</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_ROYAL_DOCKYARD</RequirementId>
+		</Row>
+		
+		
+		</RequirementSetRequirements>>
+	
+	<RequirementSets>
+					<Row>
+			<RequirementSetId>CITY_HAS_HARBOR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		
+							<Row>
+			<RequirementSetId>CITY_HAS_ROYAL_DOCKYARD</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		
+	</RequirementSets>
+	
+	
+    <Feature_AdjacentYields>
+    <Update>
+		<Where FeatureType="FEATURE_EVEREST" YieldType="YIELD_FAITH"/>
+			<Set YieldChange="2"/>
+		</Update>
+    <Update>
+		<Where FeatureType="FEATURE_GALAPAGOS" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChange="3"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_KILIMANJARO" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="3"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_TSINGY" YieldType="YIELD_CULTURE"/>
+			<Set YieldChange="1"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_TSINGY" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChange="2"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_PIOPIOTAHI" YieldType="YIELD_CULTURE"/>
+			<Set YieldChange="2"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_PIOPIOTAHI" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="1"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_YOSEMITE" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="2"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_YOSEMITE" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChange="2"/>
+		</Update>
+    </Feature_AdjacentYields>
+
+	<Feature_YieldChanges>
+<Update>
+		<Where FeatureType="FEATURE_BARRIER_REEF" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="4"/>
+  </Update>
+<Update>
+		<Where FeatureType="FEATURE_BARRIER_REEF" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChange="3"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_CLIFFS_DOVER" YieldType="YIELD_CULTURE"/>
+			<Set YieldChange="4"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_CLIFFS_DOVER" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="3"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_CRATER_LAKE" YieldType="YIELD_FAITH"/>
+			<Set YieldChange="6"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_CRATER_LAKE" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChange="2"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_DEAD_SEA" YieldType="YIELD_CULTURE"/>
+			<Set YieldChange="3"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_DEAD_SEA" YieldType="YIELD_FAITH"/>
+			<Set YieldChange="4"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_PANTANAL" YieldType="YIELD_CULTURE"/>
+			<Set YieldChange="2"/>
+		</Update>
+<Update>
+		<Where FeatureType="FEATURE_PANTANAL" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="3"/>
+		</Update>
+	</Feature_YieldChanges>
+<!-- Housing changes -->
+
+<GlobalParameters>
+
+<Update>
+<Where Name="CITY_POPULATION_NO_WATER"/>
+<Set Value="3"/>
+</Update>
+
+<Update>
+<Where Name="COAST_FERTILITY"/>
+<Set Value="2"/>
+</Update>
+
+</GlobalParameters>
+
+<Buildings>
+
+<Update>
+<Where BuildingType="BUILDING_GRANARY"/>
+<Set Housing="3"/>
+</Update>
+
+</Buildings>
+
+<!-- District production + housing changes-->
+
+<Districts>
+
+<Update>
+<Where DistrictType="DISTRICT_HOLY_SITE"/>
+<Set Cost="50" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_CAMPUS"/>
+<Set Cost="50" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_ENCAMPMENT"/>
+<Set Cost="50" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_HARBOR"/>
+<Set Cost="50" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_AERODROME"/>
+<Set Cost="50" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_COMMERCIAL_HUB"/>
+<Set Cost="50" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+<Set Cost="50" CostProgressionParam1="20" Housing="1"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_THEATER"/>
+<Set Cost="50" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+<Set Cost="50" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_NEIGHBORHOOD"/>
+<Set Cost="50" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_AQUEDUCT"/>
+<Set Cost="42" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_ACROPOLIS"/>
+<Set Cost="25" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_BATH"/>
+<Set Cost="25" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_HANSA"/>
+<Set Cost="25" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_LAVRA"/>
+<Set Cost="25" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_MBANZA"/>
+<Set Cost="25" CostProgressionParam1="20"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_STREET_CARNIVAL"/>
+<Set Cost="25" CostProgressionParam1="20" Housing="1"/>
+</Update>
+
+<Update>
+<Where DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD"/>
+<Set Cost="25" CostProgressionParam1="20"/>
+</Update>
+
+</Districts>
+
+	<Government_SlotCounts>
+	
+	<Update>
+	<Where GovernmentType="GOVERNMENT_OLIGARCHY" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+	<Set NumSlots="2"/>
+	</Update>
+	
+	</Government_SlotCounts>
+
+		<Routes>
+		<Update>
+			<Where RouteType="ROUTE_ANCIENT_ROAD" />
+			<Set MovementCost="1" SupportsBridges="false" PlacementValue="1" />
+		</Update>
+		<Update>
+			<Where RouteType="ROUTE_MEDIEVAL_ROAD" />
+			<Set MovementCost="0.666" SupportsBridges="true" PlacementValue="2" PrereqEra="ERA_CLASSICAL" />
+		</Update>
+		<Update>
+			<Where RouteType="ROUTE_INDUSTRIAL_ROAD" />
+			<Set MovementCost="0.4" SupportsBridges="true" PlacementValue="3" PrereqEra="ERA_RENAISSANCE" />
+		</Update>
+		<Update>
+			<Where RouteType="ROUTE_MODERN_ROAD" />
+			<Set MovementCost="0.2" SupportsBridges="true" PlacementValue="4" PrereqEra="ERA_MODERN" />
+		</Update>
+	</Routes>
+	
+	<Resource_YieldChanges>
+	<Row ResourceType="RESOURCE_CRABS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	<Row ResourceType="RESOURCE_FISH" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</Resource_YieldChanges>
+	
+</GameInfo>

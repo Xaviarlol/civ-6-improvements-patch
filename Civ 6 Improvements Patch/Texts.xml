@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by matthew beach (Firaxis Games) -->
+
+<GameData>
+ 
+  <LocalizedText>
+<!-- Policies -->
+  					<Update>
+<Where Tag="LOC_POLICY_AGOGE_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Ancient and Classical era melee and ranged units.</Text>
+			</Set>
+			</Update>
+			
+			
+  					<Update>
+<Where Tag="LOC_POLICY_MARITIME_INDUSTRIES_DESCRIPTION"/>
+			<Set> 
+			<Text>+50% [ICON_Production] Production toward Ancient and Classical era naval units.</Text>
+			</Set>
+			</Update>
+			
+			  					<Update>
+<Where Tag="LOC_POLICY_MANEUVER_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Ancient and Classical era heavy and light cavalry units.</Text>
+			</Set>
+			</Update>
+			
+						  					<Update>
+<Where Tag="LOC_POLICY_FEUDAL_CONTRACT_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Medieval and Renaissance era melee and ranged units.</Text>
+			</Set>
+			</Update>
+			
+									 <Update>
+<Where Tag="LOC_POLICY_CHIVALRY_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Medieval, Renaissance, and Industrial era heavy and light cavalry units.</Text>
+			</Set>
+			</Update>
+	 <Update>
+<Where Tag="LOC_POLICY_PRESS_GANGS_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Renaissance and Industrial era naval units.</Text>
+			</Set>
+			</Update>
+			
+				 <Update>
+<Where Tag="LOC_POLICY_GRANDE_ARMEE_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Industrial and Modern era melee and ranged units.</Text>
+			</Set>
+			</Update>
+			
+							 <Update>
+<Where Tag="LOC_POLICY_FINEST_HOUR_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Modern and Atomic air units.</Text>
+			</Set>
+			</Update>
+			
+									 <Update>
+<Where Tag="LOC_POLICY_LIGHTNING_WARFARE_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production for Modern, Atomic, and Information era heavy and light cavalry units.</Text>
+			</Set>
+			</Update>
+								<Update>
+<Where Tag="LOC_POLICY_PATRIOTIC_WAR_DESCRIPTION"/>
+			<Set> 
+			<Text>+50% [ICON_Production] Production for Modern, Atomic, and Information era support units.</Text>
+			</Set>
+			</Update>
+											<Update>
+<Where Tag="LOC_POLICY_INTERNATIONAL_WATERS_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Modern, Atomic, and Information era naval units, excluding Carriers.</Text>
+			</Set>
+			</Update>
+			
+														<Update>
+<Where Tag="LOC_POLICY_MILITARY_FIRST_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Atomic and Information era melee and ranged units.</Text>
+			</Set>
+			</Update>
+			
+																	<Update>
+<Where Tag="LOC_POLICY_STRATEGIC_AIR_FORCE_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Information era air units, and toward all Carriers.</Text>
+			</Set>
+			</Update>
+			
+			
+			
+			<!-- Other policy texts -->
+			<Update>
+						
+						<Where Tag="LOC_POLICY_CARAVANSARIES_DESCRIPTION"/>
+			<Set> 
+			<Text>+4 [ICON_Gold] Gold from all [ICON_TradeRoute] Trade Routes.</Text>
+			</Set>
+			</Update>
+			
+						<Update>
+						
+						<Where Tag="LOC_POLICY_SCRIPTURE_DESCRIPTION"/>
+			<Set> 
+			<Text>+100% Holy Site adjacency bonuses. +4 [ICON_Faith] Faith per turn.</Text>
+			</Set>
+			</Update>
+			
+								<Update>
+						
+						<Where Tag="LOC_POLICY_INSULAE_DESCRIPTION"/>
+			<Set> 
+			<Text>+2 [ICON_Housing] Housing in all cities with at least 2 specialty districts.</Text>
+			</Set>
+			</Update>
+						<Update>
+						
+						<Where Tag="LOC_POLICY_LAND_SURVEYORS_DESCRIPTION"/>
+			<Set> 
+			<Text>Reduces the cost of purchasing a tile by 40%.</Text>
+			</Set>
+			</Update>
+			<Update>
+<Where Tag="LOC_POLICY_SURVEY_DESCRIPTION"/>
+			<Set> 
+			<Text>Double experience for recon units. +1 [ICON_GreatGeneral] Great General points per turn.</Text>
+			</Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_POLICY_URBAN_PLANNING_DESCRIPTION"/>
+			<Set> 
+			<Text>+3 [ICON_Production] Production in the Capital and +1 [ICON_Production] Production in all other cities.</Text>
+			</Set>
+			</Update>
+					
+					<Update>
+<Where Tag="LOC_POLICY_GOD_KING_DESCRIPTION"/>
+			<Set> 
+			<Text>+3 [ICON_Faith] Faith and +3 [ICON_Gold] Gold in the [ICON_Capital] Capital.</Text>
+			</Set>
+			</Update>
+		<!-- Natural Wonders -->
+		
+					<Update>
+<Where Tag="LOC_FEATURE_CLIFFS_DOVER_DESCRIPTION"/>
+			<Set> 
+			<Text>Two tile natural wonder. It appears with Cliffs adjacent to water and provides +4 [ICON_Culture] Culture and +3 [ICON_Gold] Gold.</Text>
+			</Set>
+			</Update>
+			
+		<Update>
+		<Where Tag="LOC_FEATURE_BARRIER_REEF_DESCRIPTION"/>
+			<Set>
+<Text>Two tile natural wonder that can be found on coastal terrain and provides +4 [ICON_Food] Food and +3 [ICON_Science] Science."</Text>
+</Set>
+			</Update>
+	
+        <Update>
+<Where Tag="LOC_FEATURE_CRATER_LAKE_DESCRIPTION"/>
+			<Set>
+<Text>One tile natural wonder. It appears as a Lake and provides +5 [ICON_Faith] Faith, +2 [ICON_Science] Science, and Fresh Water."</Text>
+</Set>
+			</Update>
+			
+        <Update>
+<Where Tag="LOC_FEATURE_DEAD_SEA_DESCRIPTION"/>
+			<Set> 
+			<Text>Two tile natural wonder. It appears as a Lake and provides +4 [ICON_Faith] Faith, +3 [ICON_Culture] Culture, and Fresh Water. Units heal completely if they heal for one turn adjacent to the Dead Sea."</Text>
+			</Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_FEATURE_EVEREST_DESCRIPTION"/>
+			<Set> <Text>Three tile impassable natural wonder. It appears as a Mountain and provides +2 [ICON_Faith] Faith to adjacent tiles. Missionaries, Inquisitors, and Apostles who move next to Mount Everest ignore Hills for the rest of the game.</Text> </Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_FEATURE_GALAPAGOS_DESCRIPTION"/>
+			<Set> <Text>Two tile impassable natural wonder. It appears on coastal terrain and provides +3 [ICON_Science] Science to adjacent tiles.</Text> </Set>
+			</Update>
+			
+      <Update>
+<Where Tag="LOC_FEATURE_KILIMANJARO_DESCRIPTION"/>
+			<Set> <Text>One tile impassable natural wonder. It appears as a Mountain and provides +3 [ICON_Food] Food to adjacent tiles.</Text> </Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_FEATURE_PANTANAL_DESCRIPTION"/>
+			<Set> <Text>Four tile natural wonder. It appears as Marsh and provides +3 [ICON_Food] Food and +2 [ICON_Culture] Culture.</Text> </Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_FEATURE_PIOPIOTAHI_DESCRIPTION"/>
+			<Set> <Text>Three tile impassable natural wonder. Provides +2 [ICON_Culture] Culture and +1 [ICON_Gold] Gold to adjacent tiles.</Text> </Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_FEATURE_TORRES_DEL_PAINE_DESCRIPTION"/>
+			<Set> <Text>Two tile impassable natural wonder. Doubles the terrain yields of all adjacent tiles.</Text> </Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_FEATURE_TSINGY_DESCRIPTION"/>
+			<Set> <Text>One tile impassable natural wonder. Provides +1 [ICON_Culture] Culture and +2 [ICON_Science] Science to adjacent tiles.</Text> </Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_FEATURE_YOSEMITE_DESCRIPTION"/>
+			<Set> <Text>Two tile impassable natural wonder. Provides +2 [ICON_Gold] Gold and +2 [ICON_Science] Science to adjacent tiles.</Text> 
+			</Set>
+			</Update>
+		
+		
+	</LocalizedText>
+	</GameData>

@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by matthew beach (Firaxis Games) -->
+
+<GameData>
+ 
+  <LocalizedText>
+  
+  <Update>
+<Where Tag="LOC_POLICY_TRADE_CONFEDERATION_DESCRIPTION"/>
+			<Set> 
+			<Text>+2 [ICON_Culture] Culture and +2 [ICON_Science] Science from international [ICON_TradeRoute] Trade Routes.</Text>
+			</Set>
+			</Update>
+			
+			  <Update>
+<Where Tag="LOC_POLICY_COLONIZATION_DESCRIPTION"/>
+			<Set> 
+			<Text>+50% [ICON_Production] Production toward Settlers.[NEWLINE]+30% [ICON_Production] Production toward Builders.</Text>
+			</Set>
+			</Update>
+			
+				<Update>
+<Where Tag="LOC_POLICY_CARAVANSARIES_DESCRIPTION"/>
+			<Set> 
+			<Text>+4 [ICON_Gold] Gold from all [ICON_TradeRoute] Trade Routes.[NEWLINE]Reduces the cost of purchasing a tile by 40%.</Text>
+			</Set>
+			</Update>
+			
+				<Update>
+<Where Tag="LOC_POLICY_CONSCRIPTION_DESCRIPTION"/>
+			<Set> 
+			<Text>Unit maintenance reduced by 1 [ICON_Gold] Gold per unit.[NEWLINE]+1 [ICON_Amenities] Amenity for cities with a garrisoned unit.</Text>
+			</Set>
+			</Update>
+			
+				<Update>
+<Where Tag="LOC_POLICY_INSPIRATION_DESCRIPTION"/>
+			<Set> 
+			<Text>+2[ICON_GreatScientist]Great Scientist points per turn. +100% Campus adjacency bonuses.+3 [ICON_Science] Science in your capital.</Text>
+			</Set>
+			</Update>
+			
+				<Update>
+<Where Tag="LOC_POLICY_REVELATION_DESCRIPTION"/>
+			<Set> 
+			<Text>+2 [ICON_GreatProphet] Great Prophet points per turn.[NEWLINE]+100% Holy Site adjacency bonuses.+4 [ICON_Faith] Faith.</Text>
+			</Set>
+			</Update>
+			
+				<Update>
+<Where Tag="LOC_POLICY_CORVEE_DESCRIPTION"/>
+			<Set> 
+			<Text>+15% [ICON_Production] Production toward Ancient and Classical wonders.[NEWLINE]+1 [ICON_GreatEngineer] Great Engineer points per turn.</Text>
+			</Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_POLICY_LITERARY_TRADITION_DESCRIPTION"/>
+			<Set> 
+			<Text>+2 [ICON_GreatWriter] Great Writer points per turn. Each city receives +1 [ICON_Culture] Culture for each specialty district it constructs.</Text>
+			</Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_POLICY_BASTIONS_DESCRIPTION"/>
+			<Set> 
+			<Text>+6 City [ICON_Strength] Defense. +5 City [ICON_Ranged] Ranged Strength. +100%[ICON_Production]Production toward defensive buildings.+1[ICON_Housing]Housing if the city has walls.</Text>
+			</Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_POLICY_LEVEE_EN_MASSE_DESCRIPTION"/>
+			<Set> 
+			<Text>Unit maintenance cost reduced by 2 [ICON_Gold] Gold per unit.[NEWLINE]+1 [ICON_Amenities] Amenity for cities with a garrisoned unit.</Text>
+			</Set>
+			</Update>
+			
+				<Update>
+<Where Tag="LOC_POLICY_VETERANCY_DESCRIPTION"/>
+			<Set> 
+			<Text>+50% [ICON_Production] Production toward Encampment and buildings for that district. +1 [ICON_GreatGeneral] Great General points per turn.</Text>
+			</Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_POLICY_INSULAE_DESCRIPTION"/>
+			<Set> 
+			<Text>+1 [ICON_Housing] Housing in all cities with 1 or more specialty districts.[NEWLINE]+2 [ICON_Food] Food in each city.</Text>
+			</Set>
+			</Update>
+			
+				<Update>
+<Where Tag="LOC_POLICY_NAVIGATION_DESCRIPTION"/>
+			<Set> 
+			<Text>+2 [ICON_GreatAdmiral] Great Admiral points per turn.[NEWLINE]+100% Harbor adjacency bonuses.[NEWLINE]+2 [ICON_Culture] Culture and +2 [ICON_Science] Science from [ICON_TradeRoute] Trade Routes.</Text>
+			</Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_POLICY_MEDINA_QUARTER_DESCRIPTION"/>
+			<Set> 
+			<Text>+2 [ICON_Housing] Housing in all cities with at least 2 districts.[NEWLINE]+3 [ICON_Food] Food in each city.Newly trained Builders gain 2 extra build actions.</Text>
+			</Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_POLICY_PROFESSIONAL_ARMY_DESCRIPTION"/>
+			<Set> 
+			<Text>50% discount on all unit upgrades.[NEWLINE]+4 [ICON_GreatGeneral] Great General points per turn.</Text>
+			</Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_POLICY_FEUDAL_CONTRACT_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Medieval and Renaissance era melee and ranged units.[NEWLINE]+1 [ICON_Production] in each city.</Text>
+			</Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_POLICY_CHIVALRY_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Medieval, Renaissance, and Industrial era cavalry units.[NEWLINE]+5 [ICON_Culture] Culture in your capital.</Text>
+			</Set>
+			</Update>
+
+			<Update>
+<Where Tag="LOC_POLICY_PRESS_GANGS_DESCRIPTION"/>
+			<Set> 
+			<Text>30% [ICON_Production] Production toward Renaissance and Industrial era naval units.[NEWLINE]+2 [ICON_Gold] Gold in each city.</Text>
+			</Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_POLICY_GOTHIC_ARCHITECTURE_DESCRIPTION"/>
+			<Set> 
+			<Text>+15% [ICON_Production] Production toward Medieval and Renaissance wonders.[NEWLINE]+2 [ICON_GreatEngineer] Great Engineer points per turn.</Text>
+			</Set>
+			</Update>
+			  					<Update>
+<Where Tag="LOC_POLICY_AGOGE_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Ancient and Classical era melee and ranged units.</Text>
+			</Set>
+			</Update>
+			
+			
+  					<Update>
+<Where Tag="LOC_POLICY_MARITIME_INDUSTRIES_DESCRIPTION"/>
+			<Set> 
+			<Text>+50% [ICON_Production] Production toward Ancient and Classical era naval units.</Text>
+			</Set>
+			</Update>
+			
+			  					<Update>
+<Where Tag="LOC_POLICY_MANEUVER_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Ancient and Classical era heavy and light cavalry units.</Text>
+			</Set>
+			</Update>
+			
+							 <Update>
+<Where Tag="LOC_POLICY_GRANDE_ARMEE_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Industrial and Modern era melee and ranged units.</Text>
+			</Set>
+			</Update>
+			
+							 <Update>
+<Where Tag="LOC_POLICY_FINEST_HOUR_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Modern and Atomic air units.</Text>
+			</Set>
+			</Update>
+			
+									 <Update>
+<Where Tag="LOC_POLICY_LIGHTNING_WARFARE_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production for Modern, Atomic, and Information era heavy and light cavalry units.</Text>
+			</Set>
+			</Update>
+								<Update>
+<Where Tag="LOC_POLICY_PATRIOTIC_WAR_DESCRIPTION"/>
+			<Set> 
+			<Text>+50% [ICON_Production] Production for Modern, Atomic, and Information era support units.</Text>
+			</Set>
+			</Update>
+											<Update>
+<Where Tag="LOC_POLICY_INTERNATIONAL_WATERS_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Modern, Atomic, and Information era naval units, excluding Carriers.</Text>
+			</Set>
+			</Update>
+			
+														<Update>
+<Where Tag="LOC_POLICY_MILITARY_FIRST_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Atomic and Information era melee and ranged units.</Text>
+			</Set>
+			</Update>
+			
+																	<Update>
+<Where Tag="LOC_POLICY_STRATEGIC_AIR_FORCE_DESCRIPTION"/>
+			<Set> 
+			<Text>+30% [ICON_Production] Production toward Information era air units, and toward all Carriers.</Text>
+			</Set>
+			</Update>
+			
+			
+			<Update>
+<Where Tag="LOC_POLICY_SURVEY_DESCRIPTION"/>
+			<Set> 
+			<Text>Double experience for recon units. +1 [ICON_GreatGeneral] Great General points per turn.</Text>
+			</Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_POLICY_URBAN_PLANNING_DESCRIPTION"/>
+			<Set> 
+			<Text>+3 [ICON_Production] Production in the Capital and +1 [ICON_Production] Production in all other cities.</Text>
+			</Set>
+			</Update>
+					
+					<Update>
+<Where Tag="LOC_POLICY_GOD_KING_DESCRIPTION"/>
+			<Set> 
+			<Text>+3 [ICON_Faith] Faith and +3 [ICON_Gold] Gold in the [ICON_Capital] Capital.</Text>
+			</Set>
+			</Update>
+
+								<Update>
+<Where Tag="LOC_POLICY_STRATEGOS_DESCRIPTION"/>
+			<Set> 
+			<Text>+2 [ICON_GreatGeneral] Great General and +2 [ICON_GreatAdmiral] points per turn.</Text>
+			</Set>
+			</Update>
+			
+											<Update>
+<Where Tag="LOC_POLICY_CRAFTSMEN_DESCRIPTION"/>
+			<Set> 
+			<Text>+100% adjacency bonuses and +2[ICON_Production]Production to Industrial Zones. +20%[ICON_Production] towards Industrial Zone Buildings.</Text>
+			</Set>
+			</Update>
+			
+														<Update>
+<Where Tag="LOC_POLICY_TRAVELING_MERCHANTS_DESCRIPTION"/>
+			<Set> 
+			<Text>+2 [ICON_GreatMerchant] Great Merchant points per turn. +100% adjacency bonuses and +2[ICON_Gold] to Commercial Hubs.</Text>
+			</Set>
+			</Update>
+			
+								<Update>
+<Where Tag="LOC_POLICY_RELIGIOUS_ORDERS_DESCRIPTION"/>
+			<Set> 
+			<Text>+5 [ICON_Religion] Strength in theological combat. Doubles [ICON_Faith] Faith from Holy Site buildings. +4 [ICON_Faith] and +4[ICON_Gold] in capital.</Text>
+			</Set>
+			</Update>
+							<Update>
+<Where Tag="LOC_POLICY_LIBERALISM_DESCRIPTION"/>
+			<Set> 
+			<Text>+1 [ICON_Amenities] Amenity and +2 [ICON_Housing] Housing to all cities. +1 Great [ICON_GreatArtist]Artist, [ICON_GreatWriter]Writer and [ICON_GreatMusician]Musician points per turn.</Text>
+			</Set>
+			</Update>
+				
+				<Update>
+<Where Tag="LOC_POLICY_WARS_OF_RELIGION_DESCRIPTION"/>
+			<Set> 
+			<Text>+4 [ICON_Strength] Combat Strength vs civilizations that follow other Religions. +1 Movement if starting turn in friendly territory. +4 [ICON_Faith] Faith per turn.</Text>
+			</Set>
+			</Update>
+			
+							<Update>
+<Where Tag="LOC_POLICY_RATIONALISM_DESCRIPTION"/>
+			<Set> 
+			<Text>+100% [ICON_Science] Science and +30% [ICON_Production] Production to Campus buildings. +2[ICON_Science]Science to Universities.</Text>
+			</Set>
+			</Update>
+			
+								<Update>
+<Where Tag="LOC_POLICY_FRESCOES_DESCRIPTION"/>
+			<Set> 
+			<Text>+2 [ICON_GreatArtist] Great Artist points per turn. +100% Theater Square district adjacency bonuses. +2[ICON_Tourism]Tourism.</Text>
+			</Set>
+			</Update>
+			
+			<Update>
+<Where Tag="LOC_POLICY_COLONIAL_OFFICES_DESCRIPTION"/>
+			<Set> 
+			<Text>+50% faster[ICON_FOOD] growth and +25% [ICON_Gold]Gold for cities not on your original [ICON_Capital] Capital's continent.</Text>
+			</Set>
+			</Update>
+			
+						<Update>
+<Where Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION"/>
+			<Set> 
+			<Text>+100% [ICON_Gold] Gold yield from Commercial Hub buildings. +5 [ICON_GOLD] Gold and +1[ICON_Science]Science from [ICON_TradeRoute]trade routes.</Text>
+			</Set>
+			</Update>
+			
+									<Update>
+<Where Tag="LOC_POLICY_PUBLIC_WORKS_DESCRIPTION"/>
+			<Set> 
+			<Text>+1 [ICON_FOOD] Food on all Sea tiles.[NEWLINE]+2 [ICON_Housing]Housing and +4 [ICON_FOOD] Food to cities with a Harbor.</Text>
+			</Set>
+			</Update>
+			
+												<Update>
+<Where Tag="LOC_POLICY_SKYSCRAPERS_DESCRIPTION"/>
+			<Set> 
+			<Text>+15% [ICON_Production] Production toward Industrial era and later wonders.[NEWLINE]+4 [ICON_GreatEngineer] Great Engineer Points per turn.</Text>
+			</Set>
+			</Update>
+			
+						<Update>
+<Where Tag="LOC_POLICY_SYMPHONIES_DESCRIPTION"/>
+			<Set> 
+			<Text>-20% [ICON_GOLD] Gold cost of purchasing Great People. +4 [ICON_GreatMusician] Great Musician points per turn. +100% [ICON_Culture] Culture yield from Theater Square buildings.</Text>
+			</Set>
+			</Update>
+			
+					<Update>
+<Where Tag="LOC_POLICY_SYMPHONIES_DESCRIPTION"/>
+			<Set> 
+			<Text>Units no longer lose [ICON_Strength] Combat Strength from being injured. All units heal for an extra +5 HP.</Text>
+			</Set>
+			</Update>
+			
+			
+			
+	</LocalizedText>
+	</GameData>
